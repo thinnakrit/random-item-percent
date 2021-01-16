@@ -1,0 +1,25 @@
+{
+    "name": "random-item-percent",
+    "version": "1.0.0",
+    "description": "For random item with percent ( I use on javascript games :D )",
+    "keywords": [
+      "javascript",
+      "js",
+      "random",
+      "random-item"
+    ],
+    "repository": "https://github.com/thinnakrit/random-item-percent",
+    "homepage": "https://github.com/thinnakrit/random-item-percent#readme",
+    "license": "MIT",
+    "author": "Thinnakrit Knoo-Aksorn <thinnakrit.idesign@gmail.com>",
+    "source": "src/index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.module.js",
+    "unpkg": "dist/index.umd.js",
+    "scripts": {
+      "build": "microbundle"
+    },
+    "devDependencies": {
+      "microbundle": "^0.12.4"
+    }
+  }
