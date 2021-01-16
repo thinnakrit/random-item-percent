@@ -58,7 +58,7 @@ console.log('result:', result)
 ## Documentation
 
 #### Parameters object
-* `itemsList` {`Array`} Items for random
+* `itemsList` {`Array`} Items for random **require  `{ itemEnum: String, percent: Number }`**
 
 #### Return value
 * `itemEnum` {`String`} Item enum
